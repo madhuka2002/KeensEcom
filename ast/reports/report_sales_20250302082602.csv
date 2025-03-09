@@ -1,0 +1,5 @@
+Date,"Order ID",Customer,Products,"Total Price","Payment Method"
+2025-02-24,9,Madhuka,"Headset (420 x 1), tysm (912 x 1), Casing (100 x 1)",1432,"cash on delivery"
+2025-02-07,7,ThevinduH,"tysm (900 x 1)",900,"cash on delivery"
+2025-02-07,8,ThevinduH,"tysm (900 x 1), mail (123 x 1)",1023,"cash on delivery"
+2025-02-02,2,ThevinduW,"tysm (900 x 1) - ",900,paytm
