@@ -1,10 +1,12 @@
 # KeensEcom
 Keens Web Application
 
-Overview
+Overview:
+
 This is the official web application for Keens. This document provides information on how to set up, run, and maintain the application, including details about its structure and the technologies used.
 
-Tech Stack
+Tech Stack:
+
 The application is built using the following technologies:
 
 •	Frontend: HTML, CSS, JavaScript, Bootstrap
@@ -15,7 +17,8 @@ The application is built using the following technologies:
 
 •	Version Control: Git
 
-Project Structure
+Project Structure:
+
 The project consists of the following main parts:
 
 •	Frontend: Contains all HTML, CSS, and JavaScript files for UI/UX.
@@ -28,7 +31,8 @@ The project consists of the following main parts:
 
 Setup Instructions
 
-Prerequisites
+Prerequisites:
+
 Ensure you have the following installed:
 
 •	PHP
@@ -46,18 +50,22 @@ Installation Steps
 2.	cd KeensEcom
 
 3.	Move Files to Server Directory:
+   
 o	Copy the project folder to the server root directory (e.g., htdocs for XAMPP).
 
-4.	Set Up the Database:
+5.	Set Up the Database:
+   
 o	Open phpMyAdmin and create a new database.
 o	Import the provided SQL file (database/ast.sql) to set up tables.
 o	Update database connection details in components/connect.php.
 
-5.	Run the Application:
+7.	Run the Application:
+   
 o	Start Apache and MySQL from XAMPP/WAMP.
 o	Open a web browser and visit http://localhost/ast.
 
-Deployment
+Deployment:
+
 To deploy the application, follow these steps:
 
 •	Upload project files to a web hosting server.
