@@ -29,21 +29,19 @@ Ensure you have the following installed:
 
 Installation Steps
 
-1.	Clone the Repository:
+1.	Download the Repository:
 
-2.	git clone https://github.com/your-repository/KeensEcom.git
+2.	cd KeensEcom
 
-3.	cd KeensEcom
-
-4.	Move Files to Server Directory:
+3.	Move Files to Server Directory:
 o	Copy the project folder to the server root directory (e.g., htdocs for XAMPP).
 
-5.	Set Up the Database:
+4.	Set Up the Database:
 o	Open phpMyAdmin and create a new database.
 o	Import the provided SQL file (database/ast.sql) to set up tables.
 o	Update database connection details in components/connect.php.
 
-6.	Run the Application:
+5.	Run the Application:
 o	Start Apache and MySQL from XAMPP/WAMP.
 o	Open a web browser and visit http://localhost/ast.
 
